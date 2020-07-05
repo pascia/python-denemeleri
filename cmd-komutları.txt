@@ -4,6 +4,8 @@ dir - iç bilgi
 copy NUL <> - oluştur (null kopyalama)
 mkdir - klosör oluşturma
 del - del dosya
+rmdir - klasör silme
+rmdir /s - içi dolu klasör silme
 
 git komutları
 
