@@ -12,5 +12,6 @@ git komutları
 git clon <url>
 git add <dosya>
 git commit -m "mesaj"
+git commit -am "mesaj" #all files
 git status #bakmak için
 git push
