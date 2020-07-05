@@ -1,0 +1,8 @@
+<ol> - Sıralı liste
+<ul> - Sırasız liste
+<img - Resim tagı
+
+<table>
+ → <thead>,<th>
+ → <tbody>,<tr>,<tb>
+
