@@ -22,4 +22,5 @@ git reset --hard origin/master
 git branch
 git checkout -b <isim>
 git checkout <branch>
+git merge <branch>
 
