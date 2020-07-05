@@ -1,0 +1,14 @@
+cd - direksiyon
+cd .. - üst direksiyon
+dir - iç bilgi
+copy NUL <> - oluştur (null kopyalama)
+mkdir - klosör oluşturma
+del - del dosya
+
+git komutları
+
+git clon <url>
+git add <dosya>
+git commit -m "mesaj"
+git status #bakmak için
+git push
