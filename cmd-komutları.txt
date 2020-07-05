@@ -15,3 +15,9 @@ git commit -m "mesaj"
 git commit -am "mesaj" #all files
 git status #bakmak için
 git push
+
+git reset --hard <hash>
+git reset --hard origin/master
+
+git branch
+git checkout -b <isim>
