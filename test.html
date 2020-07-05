@@ -2,7 +2,9 @@
 <html lang="tr">
     <head>
         <title>"Denememiz budur !"</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
+
     <body>
         <h1>Sözlük</h1>
         <h3>4 Haziran 2020</h3>
@@ -23,13 +25,14 @@
                 <li>Particular: Belirli, özel</li>
             </ul>
 
+
         <table>
-            <thead>
+            <thead style="color: red;">
                 <th>Tarih</th>
                 <th>Programlama</th>
                 <th>Kelime</th>
             </thead>
-            <tbody>
+            <tbody style="text-align: center;">
                 <tr>
                     <td>4 Haz 2020</td>
                     <td>+</td>
@@ -42,5 +45,20 @@
                 </tr>
             </tbody>
         </table>
+
+
+        <form>
+            <input type="text" placeholder="Metin girin" name="box-1">
+            <input type="submit" placeholder="Yolla">
+            <input type="radio" placeholder="Onaylıyorum" name="rad-1">
+
+            <input list="Gunler" placeholder="Günler" name="gun-1">
+            <datalist id="Gunler">
+                <option value="4 Haziran 2020">
+                <option value="5 Haziran 2020">
+            </datalist>
+
+        </form>
+
     </body>
 </html>
