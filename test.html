@@ -1,45 +1,65 @@
 <!DOCTYPE HTML>
 <html lang="tr">
     <head>
-        <title>"Denememiz budur !"</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <title>Denememiz budur !</title>
         <link rel="stylesheet" href="styles.css">
         <style>
-            div {
+            div.liste {
             background-color:grey;
-            width:250px;
-            height:130px;
+            width:300px;
+            height:200px;
             padding: 10px;
             margin: 10px;
             border: 3px solid black;
             }
             td {border: 1px solid black;}
             th {border: 2px solid black; background-color: #cccccc; font-size:20px; padding: 0px 6px;}
+            #id-tektir {}
+            .class-coktur {}
+            input[type="submit"]:hover, button:hover {background-color:grey}
+
+            #container {
+            display: flex; flex-wrap: wrap;
+            border:2px solid black; padding: 10px; margin: 10px; width:800px
+            }
+
+            #container > h3 {padding: 30px,0px; text-align:center}
+
         </style>
     </head>
 
     <body>
-        <h1>Sözlük</h1>
-        <h3>4 Haziran 2020</h3>
-        <div>
-            <ul>
-                <li>Provide: Temin, sağlama</li>
-                <li>Purpose: Amaç, gaye</li>
-                <li>Eternal: Sonsuz</li>
-                <li>Regret: Pişmanlık</li>
-                <li>Approprite: Uygun, elkoyma</li>
-            </ul>
+        <h1 id="id-tektir" class="class-coktur">Sözlük</h1>
+        <div id="container">
+            <div>
+                <h3>4 Haziran 2020</h3>
+                <div class="liste">
+                    <ul>
+                        <li>Provide: Temin, sağlama</li>
+                        <li>Purpose: Amaç, gaye</li>
+                        <li>Eternal: Sonsuz</li>
+                        <li>Regret: Pişmanlık</li>
+                        <li>Approprite: Uygun, elkoyma</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h3>5 Haziran 2020</h3>
+                <div class="liste">
+                    <ul>
+                        <li>Lecture: Ders</li>
+                        <li>Repository: Veri havuzu</li>
+                        <li>Edge: Kenar, uç</li>
+                        <li>Nervous: Gergin, sinirli</li>
+                        <li>Betray: Hainlik</li>
+                        <li>Particular: Belirli, özel</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <h3>5 Haziran 2020</h3>
-        <div>
-            <ul>
-                <li>Lecture: Ders</li>
-                <li>Repository: Veri havuzu</li>
-                <li>Edge: Kenar, uç</li>
-                <li>Nervous: Gergin, sinirli</li>
-                <li>Betray: Hainlik</li>
-                <li>Particular: Belirli, özel</li>
-            </ul>
-        </div>
+
 
         <table style="border: 2px solid black; border-collapse:collapse;">
             <thead style="color: red;">
@@ -65,6 +85,7 @@
         <form>
             <input type="text" placeholder="Metin girin" name="box-1">
             <input type="submit" placeholder="Yolla">
+            <button>Yolla</button>
             <input type="radio" placeholder="Onaylıyorum" name="rad-1">
 
             <input list="Gunler" placeholder="Günler" name="gun-1">

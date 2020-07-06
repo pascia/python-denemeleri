@@ -6,3 +6,25 @@
  → <thead>,<th>
  → <tbody>,<tr>,<tb>
 
+CSS selectors
+
+a,b
+a b - b nin içindeki a'nın tamamına uygula
+a > b - b'nin içindeki a'lara uygula (child)
+a[özellik] - belirli özellikteki a'lara uygula
+a:b (psödöclass) button:hover gibi
+
+padding
+
+CSS respon.
+        <style>
+        @media (min-width:600px;) { h1 {...} }
+        @media (max-width:599px;) { h1 {...} }
+
+CSS grid-flex
+
+display: flex, grid
+flex-wrap: wrap
+grid-column-gap: 20px
+grid-row-gap: 20px
+grid-template-columns: 200px 200px auto

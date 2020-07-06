@@ -1,3 +1,9 @@
-h1 {
-    color: red;
+#header {
+    text-align: center;
+    color: dark
+}
+
+h1#anabaslik {
+    text-align: center;
+    align: center;
 }
