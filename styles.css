@@ -1,9 +1,23 @@
-#header {
+→
     text-align: center;
-    color: dark
+    padding: 40px;
 }
 
-h1#anabaslik {
-    text-align: center;
+div#nav {
     align: center;
+    text-align: center;
+}
+
+.jumbotron {
+    padding: 40px;
+}
+
+.nav-link active {
+    bold: true;
+}
+
+a {color:blue}
+
+#maincon {
+    margin: 0px,40px
 }
